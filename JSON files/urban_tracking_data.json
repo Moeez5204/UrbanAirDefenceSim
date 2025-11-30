@@ -1,0 +1,247 @@
+{
+  "summary_info": {
+    "total_tracking_steps": 9,
+    "final_canyon_preference": 0.0,
+    "total_tracking_time": 0.8999999999999999,
+    "tracker_settings": {
+      "time_step_size": 0.1,
+      "starting_canyon_guess": 0.3
+    }
+  },
+  "complete_tracking_history": [
+    {
+      "time": 0.0,
+      "estimated_position": [
+        8.71575012607053,
+        4.357875063035265,
+        43.578750630352644
+      ],
+      "estimated_velocity": [
+        0.8561665826196472,
+        0.4280832913098236,
+        4.280832913098235
+      ],
+      "canyon_preference": 0.285,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        13.073625189105792,
+        13.073625189105792,
+        13.073625189105792
+      ],
+      "radar_measurement": [
+        10,
+        5,
+        50
+      ]
+    },
+    {
+      "time": 0.1,
+      "estimated_position": [
+        19.4504831243636,
+        3.6970512170643346,
+        47.01749607917245
+      ],
+      "estimated_velocity": [
+        8.87286346598508,
+        -0.101613792003163,
+        6.547271288294542
+      ],
+      "canyon_preference": 0.27075,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        7.535237931396831,
+        7.535237931396831,
+        7.535237931396831
+      ],
+      "radar_measurement": [
+        30,
+        3,
+        50
+      ]
+    },
+    {
+      "time": 0.2,
+      "estimated_position": [
+        36.63059149167819,
+        5.45866957112876,
+        48.628449130500435
+      ],
+      "estimated_velocity": [
+        33.1084174243509,
+        2.5339065170801236,
+        7.969656244788563
+      ],
+      "canyon_preference": 0.20721249999999997,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        6.161840296193489,
+        6.161840296193489,
+        6.161840296193489
+      ],
+      "radar_measurement": [
+        60,
+        8,
+        50
+      ]
+    },
+    {
+      "time": 0.30000000000000004,
+      "estimated_position": [
+        59.609872470602696,
+        5.82519422520223,
+        49.651174214508494
+      ],
+      "estimated_velocity": [
+        70.1815639426886,
+        2.747153404414189,
+        8.395191459880738
+      ],
+      "canyon_preference": 0.14685187499999997,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        5.893628355903956,
+        5.893628355903956,
+        5.893628355903956
+      ],
+      "radar_measurement": [
+        90,
+        6,
+        50
+      ]
+    },
+    {
+      "time": 0.4,
+      "estimated_position": [
+        87.60477488570359,
+        9.59790547310697,
+        50.29783651488401
+      ],
+      "estimated_velocity": [
+        111.40268209691243,
+        9.621017561483185,
+        8.016211096961202
+      ],
+      "canyon_preference": 0.08950928124999995,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        5.895438815925293,
+        5.895438815925291,
+        5.895438815925291
+      ],
+      "radar_measurement": [
+        120,
+        15,
+        50
+      ]
+    },
+    {
+      "time": 0.5,
+      "estimated_position": [
+        118.85145389020141,
+        14.263149013216946,
+        50.66815989288105
+      ],
+      "estimated_velocity": [
+        149.38040610150483,
+        16.615647187646793,
+        7.201560168685864
+      ],
+      "canyon_preference": 0.03503381718749994,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        5.8842340358109,
+        5.8842340358109,
+        5.8842340358109
+      ],
+      "radar_measurement": [
+        150,
+        20,
+        50
+      ]
+    },
+    {
+      "time": 0.6,
+      "estimated_position": [
+        151.6635114422755,
+        19.434993889133388,
+        50.85132152236307
+      ],
+      "estimated_velocity": [
+        180.85830637447617,
+        22.79759549149134,
+        6.2558602833034955
+      ],
+      "canyon_preference": 0.0,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        5.8019329420859895,
+        5.8019329420859895,
+        5.8019329420859895
+      ],
+      "radar_measurement": [
+        180,
+        25,
+        50
+      ]
+    },
+    {
+      "time": 0.7,
+      "estimated_position": [
+        188.73214456843687,
+        24.844606967780564,
+        50.91898760517982
+      ],
+      "estimated_velocity": [
+        211.774536168821,
+        27.895013061849227,
+        5.347207240497939
+      ],
+      "canyon_preference": 0.0,
+      "urban_terrain_type": "canyon_strength_0.60",
+      "position_confidence": [
+        5.666434015300889,
+        5.666434015300889,
+        5.666434015300889
+      ],
+      "radar_measurement": [
+        220,
+        30,
+        50
+      ]
+    },
+    {
+      "time": 0.7999999999999999,
+      "estimated_position": [
+        229.0127490615729,
+        31.14396935320913,
+        50.761013612132245
+      ],
+      "estimated_velocity": [
+        239.33016739220437,
+        32.95786568608135,
+        4.348019185167874
+      ],
+      "canyon_preference": 0.0,
+      "urban_terrain_type": "open_void_area",
+      "position_confidence": [
+        4.765018560941032,
+        4.765018560941032,
+        4.765018560941032
+      ],
+      "radar_measurement": [
+        250,
+        35,
+        50
+      ]
+    }
+  ],
+  "performance_stats": {
+    "average_canyon_preference": 0.11492860815972221,
+    "different_terrains_encountered": 2,
+    "final_position_confidence": [
+      4.765018560941032,
+      4.765018560941032,
+      4.765018560941032
+    ]
+  }
+}

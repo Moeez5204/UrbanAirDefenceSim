@@ -1,0 +1,208 @@
+{
+  "tracking_summary": {
+    "total_steps": 9,
+    "final_model_probabilities": {
+      "Canyon_Follower": 0.331411733,
+      "Open_Area_Flyer": 0.33717653399999997,
+      "Obstacle_Dodger": 0.331411733
+    },
+    "target_canyon_preference": 0.0,
+    "average_uncertainty": 5.292089698856096
+  },
+  "model_descriptions": {
+    "Canyon_Follower": {
+      "prefers_canyons": true,
+      "avoids_obstacles": true,
+      "max_acceleration": 2.0,
+      "process_noise": 1.0
+    },
+    "Open_Area_Flyer": {
+      "prefers_canyons": false,
+      "avoids_obstacles": false,
+      "max_acceleration": 3.0,
+      "process_noise": 2.0
+    },
+    "Obstacle_Dodger": {
+      "prefers_canyons": false,
+      "avoids_obstacles": true,
+      "max_acceleration": 5.0,
+      "process_noise": 3.0
+    }
+  },
+  "performance_by_context": {
+    "open_void_area": {
+      "Canyon_Follower": 0.0,
+      "Open_Area_Flyer": 1.0,
+      "Obstacle_Dodger": 0.0
+    },
+    "canyon_strength_0.60": {
+      "Canyon_Follower": 0.125,
+      "Open_Area_Flyer": 0.875,
+      "Obstacle_Dodger": 0.0
+    }
+  },
+  "sample_tracking_data": [
+    {
+      "timestamp": 0.0,
+      "estimated_position": [
+        8.71575012607053,
+        4.357875063035265
+      ],
+      "best_model": "Canyon_Follower",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "position_uncertainty": [
+        3.1622776601683795,
+        3.1622776601683795
+      ]
+    },
+    {
+      "timestamp": 0.1,
+      "estimated_position": [
+        17.303536524704988,
+        3.8292159862585207
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.31,
+        0.37999999999999995,
+        0.31
+      ],
+      "position_uncertainty": [
+        3.3,
+        3.3
+      ]
+    },
+    {
+      "timestamp": 0.2,
+      "estimated_position": [
+        34.91212709794216,
+        5.000614084960526
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.317,
+        0.36599999999999994,
+        0.317
+      ],
+      "position_uncertainty": [
+        3.443864108817303,
+        3.443864108817303
+      ]
+    },
+    {
+      "timestamp": 0.30000000000000004,
+      "estimated_position": [
+        58.535734389465226,
+        5.986168914127937
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.3219,
+        0.35619999999999996,
+        0.3219
+      ],
+      "position_uncertainty": [
+        3.5914648821894386,
+        3.5914648821894386
+      ]
+    },
+    {
+      "timestamp": 0.4,
+      "estimated_position": [
+        86.73051586098802,
+        9.040474189359504
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.32533,
+        0.34934,
+        0.32533
+      ],
+      "position_uncertainty": [
+        3.740799112489202,
+        3.740799112489202
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "estimated_position": [
+        118.2410743836064,
+        13.940961360241264
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.327731,
+        0.344538,
+        0.327731
+      ],
+      "position_uncertainty": [
+        3.8902287593405096,
+        3.8902287593405096
+      ]
+    },
+    {
+      "timestamp": 0.6000000000000001,
+      "estimated_position": [
+        151.40321163638438,
+        19.38072234812645
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.32941170000000003,
+        0.34117660000000005,
+        0.32941170000000003
+      ],
+      "position_uncertainty": [
+        4.03843470914165,
+        4.03843470914165
+      ]
+    },
+    {
+      "timestamp": 0.7000000000000001,
+      "estimated_position": [
+        187.95084539376018,
+        24.850636549628167
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "canyon_strength_0.60",
+      "model_probabilities": [
+        0.33058819,
+        0.33882362,
+        0.33058819
+      ],
+      "position_uncertainty": [
+        4.18436956756929,
+        4.18436956756929
+      ]
+    },
+    {
+      "timestamp": 0.8,
+      "estimated_position": [
+        228.26615491442084,
+        30.97807971642376
+      ],
+      "best_model": "Open_Area_Flyer",
+      "urban_context": "open_void_area",
+      "model_probabilities": [
+        0.331411733,
+        0.33717653399999997,
+        0.331411733
+      ],
+      "position_uncertainty": [
+        4.327213814661809,
+        4.327213814661809
+      ]
+    }
+  ]
+}
