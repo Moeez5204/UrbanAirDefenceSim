@@ -12,6 +12,10 @@ def main():
     subprocess.run([sys.executable, os.path.join(current_dir, 'TopologyEnhancedKalmanFilter.py')])
     subprocess.run([sys.executable, os.path.join(current_dir, 'IMM_Filter.py')])
     subprocess.run([sys.executable, os.path.join(current_dir, 'LTSM.py')])
+    subprocess.run([sys.executable, os.path.join(current_dir, 'ThreatsScoreCalculator.py')])
+    subprocess.run([sys.executable, os.path.join(current_dir, 'AdaptiveSectorDefenseAllocation.py')])
+
+
 
 if __name__ == "__main__":
     main()
