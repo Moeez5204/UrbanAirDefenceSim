@@ -1,0 +1,39 @@
+# Core Numerical Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Geometry & Spatial Analysis
+shapely>=2.0.0
+utm>=0.7.0
+osmnx>=1.6.0
+
+# Topological Data Analysis (TDA)
+gudhi>=3.8.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Machine Learning Utilities
+scikit-learn>=1.3.0
+
+# Image Processing
+pillow>=10.0.0
+
+# Configuration & Data Formats
+pyyaml>=6.0
+json5>=1.0.0
+
+# Dependencies for OSMnx
+networkx>=3.0
+folium>=0.14.0
+geopandas>=0.13.0
+rtree>=1.0.0
+
+# Optional but recommended for 3D visualization
+mpl_toolkits  # Comes with matplotlib
