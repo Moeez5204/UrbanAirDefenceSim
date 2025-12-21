@@ -21,41 +21,17 @@ wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE
+# PyCharm
 .idea/
-.vscode/
-*.swp
-*.swo
+*.iml
+*.ipr
+*.iws
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env/
 
 # OS
 .DS_Store
@@ -66,15 +42,23 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Data files and models (large files)
-*.pth
+# Logs
+*.log
+
+# Data files
+*.json
+!*.json  # But keep JSON files (remove this line if you want to ignore JSON)
+*.csv
 *.pkl
 *.pickle
-*.h5
-*.hdf5
-*.model
-cache/
-temp/
 
-# Document files (if you want to exclude)
-*.docx
+# Output files
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+
+# Temporary files
+temp/
+tmp
